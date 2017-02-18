@@ -1,0 +1,56 @@
+<!-- POPULAR PRODUCTS H-->
+
+<div class="row popular-title">
+	<div class="col-sm-12">
+		  <div class="strike">
+		    <h3>Popular products</h3>
+		</div>
+	</div>
+</div>
+
+<!-- POPULAR PRODUCTS H -->
+
+<!-- POPULAR PRODUCTS LIST -->
+
+
+<div *ngFor="let product of products" class="row popular-list">
+		<div class="col-sm-3" ng-repeat="product in products">
+			<div class="popular-img">
+				<div class="stars">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</div>
+				<img class="thumbn" src="{{ product.image }}">
+
+			</div>
+			<div class="popular-desc">
+				<a href="#"><h4>{{ product.name }}</h4></a>
+						<h5>{{ product.type }}</h5>
+						<p>
+						{{ product.description }}
+						 </p>
+			</div>
+			<div class="popular-price-and-icons">
+			<div class="money-icon">
+			<span>{{ product.price | currency }}</span>
+			</div>
+			<div class="extra-icons">
+				<img class="thumbn" src="../../build/img/heart.png">
+				<img class="thumbn" src="../../build/img/plus.png">
+				
+			</div>
+				
+			</div>
+			<div class="popular-buy">
+			<a href="#">Buy now</a>
+
+			</div>
+		</div>
+
+		
+
+</div>
+<!-- POPULAR PRODUCTS LIST -->

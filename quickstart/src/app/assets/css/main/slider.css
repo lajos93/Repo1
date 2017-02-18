@@ -1,0 +1,16 @@
+#demoHeader {
+  height: 350px;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #demoHeader div {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    #demoHeader div div {
+      flex: 1; }
+
+.header1 {
+  background-image: url(https://davidwalsh.name/demo/background-size-1.jpg); }
