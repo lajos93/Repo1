@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 
   <main class="Site-content">
   			<slider></slider>
+  			<topics></topics>
+  			<popular></popular>
   </main>
   <footer></footer>
    `,

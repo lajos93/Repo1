@@ -1,5 +1,5 @@
 .popular {
-    padding: 70px 120px 0 120px;
+    padding: 70px 105px 0 105px;
 
     .col-sm-4 {
         img {
@@ -16,8 +16,14 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .popular {
-        padding: 70px 60px 0 60px;
+        padding: 70px 45px 0 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .popular {
+        padding: 70px 10px 0 10px;
     }
 }

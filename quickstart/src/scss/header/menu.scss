@@ -46,6 +46,7 @@ p {
         .top-data {
             letter-spacing: 1px;
             color: $lettergray;
+            padding: 0px;
 
             .col-sm-6 {
                 padding-left: 0px;
@@ -74,12 +75,21 @@ p {
 
                 .checkout {
                     background-color: $lighgray;
+                    float: right;
 
                     p {
                         padding: 15px;
                     }
                 }
+
+                .phone-email {
+                    padding-top: 14px;
+                }
             }
+        }
+
+        .nav-menu {
+            padding: 0px;
         }
 
         .col-sm-12 {
@@ -148,7 +158,7 @@ p {
     position: relative;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .header {
         padding: 30px 60px 0 60px !important;
     }
@@ -158,5 +168,45 @@ p {
     .email p,
     .telephone p {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 20px !important;
+
+        .row {
+            .top-data {
+                .col-sm-6 {
+                    text-align: center !important;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .row {
+            .top-data {
+                .col-sm-6 {}
+
+                .top-info {
+                    margin-top: 15px;
+                    width: 100%;
+
+                    .checkout {
+                        float: none;
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    .phone-email {
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }
