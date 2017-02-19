@@ -24,7 +24,7 @@ p {
     padding: 0px;
 }
 
-.top-logo, .top-info, .telephone, .email, .checkout {
+.top-logo, .top-info, .telephone, .email, .checkout, .hamburger {
     display: inline-block;
 
     p {
@@ -151,5 +151,12 @@ p {
 @media screen and (max-width: 1000px) {
     .header {
         padding: 30px 60px 0 60px !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .email p,
+    .telephone p {
+        display: none;
     }
 }

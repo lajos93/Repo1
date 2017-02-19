@@ -12,9 +12,9 @@ p {
 .menu {
   padding: 0px; }
 
-.top-logo, .top-info, .telephone, .email, .checkout {
+.top-logo, .top-info, .telephone, .email, .checkout, .hamburger {
   display: inline-block; }
-  .top-logo p, .top-info p, .telephone p, .email p, .checkout p {
+  .top-logo p, .top-info p, .telephone p, .email p, .checkout p, .hamburger p {
     display: inline-block; }
 
 .telephone, .email, .checkout {
@@ -88,3 +88,8 @@ p {
 @media screen and (max-width: 1000px) {
   .header {
     padding: 30px 60px 0 60px !important; } }
+
+@media screen and (max-width: 1150px) {
+  .email p,
+  .telephone p {
+    display: none; } }

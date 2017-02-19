@@ -4,25 +4,101 @@ $lighgray: #ededed;
 $white: #fff;
 $semi-tp-black: rgba(black, 0.6);
 
-#demoHeader {
-    height: 350px;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center center;
+.Site {
+    overflow: hidden;
 
-    div {
-        display: flex;
-        align-items: center;
-        height: 100%;
+    .Site-content {
+        slider {
+            .bg {
+                background-image: url(../../../img/image.png);
+                min-width: 1070px;
+                height: 510px;
+                -webkit-background-size: 100% auto;
+                -moz-background-size: 100% auto;
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                background-position: center center;
+                color: $white;
 
-        div {
-            flex: 1;
+                .main-div {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    width: 101%;
+
+                    .sidenote {
+                        width: 345px;
+                        background-color: rgba(0, 0, 0, 0.6);
+                        padding: 0 0px 0 120px;
+                        width: 44%;
+                        height: 290px;
+                        max-width: 650px;
+                        display: flex;
+                        align-items: center;
+
+                        .slider-text {
+                            h1 {
+                                margin: 0px;
+                            }
+
+                            p {
+                                width: 90%;
+                            }
+
+                            button {
+                                background-color: $orange;
+                                color: $white;
+                                border: none;
+                                outline: 0;
+                                text-transform: uppercase;
+                                padding: 8px 30px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
-.header1 {
-    background-image: url(https://davidwalsh.name/demo/background-size-1.jpg);
+@media screen and (max-width: 1050px) {
+    .sidenote {
+        width: 66%  !important;
+        height: 290px !important;
+        max-width: 1920px !important;
+    }
+
+    p {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .bg {
+        min-width: initial !important;
+        height: 290px !important;
+        width: 150%  !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bg {
+        min-width: 1070px !important;
+        height: 510px !important;
+        width: 150%  !important;
+
+        .main-div {
+            .sidenote {
+                height: 100% !important;
+
+                h1 {
+                    width: 40%;
+                }
+
+                p {
+                    width: 40% !important;
+                }
+            }
+        }
+    }
 }

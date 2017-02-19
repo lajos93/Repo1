@@ -6,6 +6,7 @@ import { HeaderComponent }  from './header/header.component';
 import { FooterComponent }  from './footer/footer.component';
 import { SliderComponent }  from './slider/slider.component';
 
+
 @NgModule({
   imports:      [ BrowserModule ],
   declarations: [ AppComponent, HeaderComponent, FooterComponent, SliderComponent ],

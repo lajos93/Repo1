@@ -12,9 +12,9 @@ p {
 .menu {
   padding: 0px; }
 
-.top-logo, .top-info, .telephone, .email, .checkout {
+.top-logo, .top-info, .telephone, .email, .checkout, .hamburger {
   display: inline-block; }
-  .top-logo p, .top-info p, .telephone p, .email p, .checkout p {
+  .top-logo p, .top-info p, .telephone p, .email p, .checkout p, .hamburger p {
     display: inline-block; }
 
 .telephone, .email, .checkout {
@@ -89,22 +89,74 @@ p {
   .header {
     padding: 30px 60px 0 60px !important; } }
 
-#demoHeader {
-  height: 350px;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center center; }
-  #demoHeader div {
-    display: flex;
-    align-items: center;
-    height: 100%; }
-    #demoHeader div div {
-      flex: 1; }
+@media screen and (max-width: 1150px) {
+  .email p,
+  .telephone p {
+    display: none; } }
 
-.header1 {
-  background-image: url(https://davidwalsh.name/demo/background-size-1.jpg); }
+.Site {
+  overflow: hidden; }
+  .Site .Site-content slider .bg {
+    background-image: url(../../../img/image.png);
+    min-width: 1070px;
+    height: 510px;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff; }
+    .Site .Site-content slider .bg .main-div {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 101%; }
+      .Site .Site-content slider .bg .main-div .sidenote {
+        width: 345px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0 0px 0 120px;
+        width: 44%;
+        height: 290px;
+        max-width: 650px;
+        display: flex;
+        align-items: center; }
+        .Site .Site-content slider .bg .main-div .sidenote .slider-text h1 {
+          margin: 0px; }
+        .Site .Site-content slider .bg .main-div .sidenote .slider-text p {
+          width: 90%; }
+        .Site .Site-content slider .bg .main-div .sidenote .slider-text button {
+          background-color: #f45a40;
+          color: #fff;
+          border: none;
+          outline: 0;
+          text-transform: uppercase;
+          padding: 8px 30px; }
+
+@media screen and (max-width: 1050px) {
+  .sidenote {
+    width: 66%  !important;
+    height: 290px !important;
+    max-width: 1920px !important; }
+  p {
+    width: 66%; } }
+
+@media screen and (max-width: 770px) {
+  .bg {
+    min-width: initial !important;
+    height: 290px !important;
+    width: 150%  !important; } }
+
+@media screen and (max-width: 480px) {
+  .bg {
+    min-width: 1070px !important;
+    height: 510px !important;
+    width: 150%  !important; }
+    .bg .main-div .sidenote {
+      height: 100% !important; }
+      .bg .main-div .sidenote h1 {
+        width: 40%; }
+      .bg .main-div .sidenote p {
+        width: 40% !important; } }
 
 .popular {
   padding: 70px 120px 0 120px; }
@@ -285,7 +337,7 @@ hr {
 
 h1 {
   font-size: 60px;
-  color: #2a2d34; }
+  color: #fff; }
 
 h3 {
   font-size: 18px; }
