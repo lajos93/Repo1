@@ -13,8 +13,8 @@
 <!-- POPULAR PRODUCTS LIST -->
 
 
-<div *ngFor="let product of products" class="row popular-list">
-		<div class="col-sm-3" ng-repeat="product in products">
+<div class="row popular-list">
+		<div  *ngFor="let product of products" class="col-sm-3" ng-repeat="product in products">
 			<div class="popular-img">
 				<div class="stars">
 					<i class="fa fa-star" aria-hidden="true"></i>
@@ -38,8 +38,8 @@
 			<span>{{ product.price | currency }}</span>
 			</div>
 			<div class="extra-icons">
-				<img class="thumbn" src="../../build/img/heart.png">
-				<img class="thumbn" src="../../build/img/plus.png">
+				<img class="thumbn" src="./img/heart.png">
+				<img class="thumbn" src="./img/plus.png">
 				
 			</div>
 				

@@ -17,12 +17,63 @@ products: any = [{
 		{
 
 		"id" : 2,
-		"name" : "Puma Sport TZ",
+		"name" : "Adidas Sport TZ",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe.png",
+		"image" : "./img/shoe1.png",
 		"price" : 79,
-		}];
+		},
+		{
+
+		"id" : 3,
+		"name" : "Adidas Sport T54",
+		"description" : "Make the best strawberry tart there is",
+		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
+		"image" : "./img/shoe2.png",
+		"price" : 79,
+		},
+		{
+
+		"id" : 4,
+		"name" : "Adidas Sport T65",
+		"description" : "Make the best strawberry tart there is",
+		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
+		"image" : "./img/shoe1.png",
+		"price" : 79,
+		},
+		{
+
+		"id" : 5,
+		"name" : "Adidas Sport TZ",
+		"description" : "Make the best strawberry tart there is",
+		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
+		"image" : "./img/shoe1.png",
+		"price" : 79,
+		},
+		{
+
+		"id" : 6,
+		"name" : "Adidas Sport T54",
+		"description" : "Make the best strawberry tart there is",
+		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
+		"image" : "./img/shoe2.png",
+		"price" : 79,
+		},
+		{
+
+		"id" : 7,
+		"name" : "Adidas Sport T65",
+		"description" : "Make the best strawberry tart there is",
+		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
+		"image" : "./img/shoe1.png",
+		"price" : 79,
+		}
+
+
+
+
+
+		];
 
 }
 

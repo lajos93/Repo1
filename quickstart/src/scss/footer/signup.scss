@@ -1,7 +1,7 @@
 .sign-up {
     .col-sm-12 {
         background: $orange;
-        padding: 15px 135px 15px 135px;
+        padding: 15px 120px 15px 120px;
         display: flex;
         align-items: center;
 
@@ -36,5 +36,50 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .sign-up {
+        .col-sm-12 {
+            display: block !important;
+            height: 180px;
+            float: none !important;
+
+            .col-sm-6 {
+                float: none !important;
+                width: 100% !important;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 20px;
+            }
+
+            .form {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .sign-up {
+        .col-sm-12 {
+            height: 180px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sign-up {
+        .col-sm-12 {
+            height: 220px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 30px 60px 0 60px !important;
     }
 }

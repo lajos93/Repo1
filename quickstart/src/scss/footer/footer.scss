@@ -8,7 +8,7 @@ $footer: #2a2d34;
 .footer {
     background-color: $footer;
     color: $white;
-    padding: 15px 135px 15px 135px;
+    padding: 15px 120px 15px 120px;
 
     .col-sm-4 {
         padding: 0px;
@@ -68,5 +68,25 @@ $footer: #2a2d34;
             position: relative;
             left: 183px;
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-column {
+        display: block !important;
+        position: inherit !important;
+    }
+
+    .second-column {
+        float: none !important;
+        position: inherit !important;
+        display: block !important;
+        left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .footer {
+        padding: 30px 60px 0 60px !important;
     }
 }

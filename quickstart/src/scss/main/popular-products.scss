@@ -35,10 +35,10 @@
 }
 
 .popular-list {
-    padding: 30px 120px 0 120px;
+    padding: 30px 105px 0 105px;
 
     .col-sm-3 {
-        margin: 0px 20px 35px 15px;
+        margin: 0px 10px 45px 10px;
         border: 1px solid $lighgray;
         min-width: 200px;
         width: 21%;
@@ -126,7 +126,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .popular-list {
         .col-sm-3 {
             width: 21%;
@@ -142,10 +142,20 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .popular-list {
         .col-sm-3 {
             width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .popular-list {
+        padding: 30px 45px 0 45px;
+
+        .col-sm-3 {
+            margin: 0px 10px 45px 10px;
         }
     }
 }

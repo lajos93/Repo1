@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
   			<slider></slider>
   			<topics></topics>
   			<popular></popular>
+  			<signup></signup>
   </main>
   <footer></footer>
    `,
