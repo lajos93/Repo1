@@ -1,57 +1,161 @@
 .detailed-style {
   padding: 15px 105px 0 105px; }
-  .detailed-style .pictures-info .detailed .gallery {
-    margin: 15px;
-    border: 2px solid #ededed;
-    padding: 15px;
-    overflow: hidden; }
-    .detailed-style .pictures-info .detailed .gallery .pic {
-      width: 50%;
-      padding-bottom: 75%;
-      margin: auto;
-      /* height: 121%; */
-      max-width: 600px;
-      min-width: 300px;
-      min-height: 436px;
-      /* 16:9 */
-      position: relative;
-      -webkit-background-size: 100% auto;
-      -moz-background-size: 100% auto;
-      background-size: 100% auto;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-image: url(../../../img/shoebig.png); }
-  .detailed-style .pictures-info .detailed .small-gallery {
-    display: flex;
-    margin: 5px; }
-    .detailed-style .pictures-info .detailed .small-gallery .small-pics {
-      width: 100%;
-      display: flex;
-      /* align-items: center; */
-      justify-content: space-between; }
-      .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 {
-        width: 33%;
-        display: inline-block;
-        border: 2px solid #ededed;
-        margin: 0px 10px;
+  .detailed-style .pictures-info .detailed {
+    padding-right: 0px;
+    padding-left: 0px; }
+    .detailed-style .pictures-info .detailed .gallery {
+      margin: 15px;
+      border: 2px solid #ededed;
+      padding: 15px;
+      overflow: hidden; }
+      .detailed-style .pictures-info .detailed .gallery .pic {
+        width: 50%;
+        padding-bottom: 75%;
+        margin: auto;
         /* height: 121%; */
+        max-width: 600px;
+        min-width: 300px;
+        min-height: 436px;
         /* 16:9 */
         position: relative;
         -webkit-background-size: 100% auto;
         -moz-background-size: 100% auto;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        background-position: center center; }
-        .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .little {
-          width: 100%;
-          overflow: hidden;
-          padding-bottom: 100%;
+        background-position: center center;
+        background-image: url(../../../img/shoebig.png); }
+    .detailed-style .pictures-info .detailed .small-gallery {
+      display: flex;
+      margin: 5px; }
+      .detailed-style .pictures-info .detailed .small-gallery .small-pics {
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between; }
+        .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 {
+          width: 33%;
+          display: inline-block;
+          border: 2px solid #ededed;
+          margin: 0px 10px;
+          /* height: 121%; */
+          /* 16:9 */
+          position: relative;
+          -webkit-background-size: 100% auto;
+          -moz-background-size: 100% auto;
           background-size: 100% auto;
           background-repeat: no-repeat;
           background-position: center center; }
-        .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb1 {
-          background-image: url(../../../img/thumb1.png); }
-        .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb2 {
-          background-image: url(../../../img/thumb2.png); }
-        .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb3 {
-          background-image: url(../../../img/thumb3.png); }
+          .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .little {
+            width: 100%;
+            overflow: hidden;
+            padding-bottom: 100%;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: center center; }
+          .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb1 {
+            background-image: url(../../../img/thumb1.png); }
+          .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb2 {
+            background-image: url(../../../img/thumb2.png); }
+          .detailed-style .pictures-info .detailed .small-gallery .small-pics .col-sm-4 .pic-thumb3 {
+            background-image: url(../../../img/thumb3.png); }
+  .detailed-style .pictures-info .prod-info-main {
+    padding-top: 60px; }
+    .detailed-style .pictures-info .prod-info-main .prod-info-sub .product-title {
+      font-weight: bold;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #7e7f84; }
+    .detailed-style .pictures-info .prod-info-main .prod-info-sub .logo-price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .logo-price img {
+        width: 35%;
+        max-width: 200px;
+        height: 35%;
+        max-height: 82px; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .logo-price .price span {
+        font-weight: bold;
+        font-size: 44px;
+        padding-top: 5px; }
+    .detailed-style .pictures-info .prod-info-main .prod-info-sub .discount .original-price {
+      text-align: right;
+      color: #7e7f84; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .discount .original-price .amount {
+        display: block;
+        font-size: 22px; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .discount .original-price .saving {
+        font-style: italic;
+        font-size: 24px; }
+    .detailed-style .pictures-info .prod-info-main .prod-info-sub .size {
+      padding-top: 45px; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount .s-a {
+        color: #7e7f84;
+        font-size: 22px;
+        font-weight: bold; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount .am {
+        float: right; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount form input[type=text] {
+        display: inline-block;
+        padding: 15px; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount form .input-size {
+        width: 70%; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount form .input-amount {
+        float: right;
+        width: 15%; }
+      .detailed-style .pictures-info .prod-info-main .prod-info-sub .size .size-amount form input[type=submit] {
+        padding: 25px;
+        border: none;
+        background-color: #ff674f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        padding: 15px 50px;
+        display: block;
+        margin: 30px;
+        float: right; }
+
+.sec-column {
+  padding-top: 30px; }
+  .sec-column .desc-shipp-size {
+    padding: 0px; }
+    .sec-column .desc-shipp-size .col-sm-12 {
+      padding: 0px 120px 0 120px; }
+      .sec-column .desc-shipp-size .col-sm-12 .buttons {
+        padding: 0px; }
+        .sec-column .desc-shipp-size .col-sm-12 .buttons a {
+          background-color: #ededed;
+          margin: 0px 5px;
+          /* Green */
+          color: #7e7f84;
+          padding: 1.5% 5%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          border-top: 5px solid #ededed;
+          box-shadow: 0px -1px 4px 0px #7e7f84; }
+        .sec-column .desc-shipp-size .col-sm-12 .buttons a:active {
+          background-color: #fff;
+          border-top: 5px solid #f45a40; }
+    .sec-column .desc-shipp-size .border {
+      border-top: 1px solid #ededed;
+      background-color: #fff;
+      padding: 30px 0px; }
+      .sec-column .desc-shipp-size .border .text p {
+        color: #7e7f84;
+        margin: 0px; }
+
+@media screen and (min-width: 960px) {
+  .text {
+    column-count: 2 !important;
+    column-gap: 40px; } }
+
+@media screen and (max-width: 960px) {
+  .text {
+    column-count: 1;
+    column-gap: 40px; } }

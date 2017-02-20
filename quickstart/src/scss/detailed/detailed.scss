@@ -10,6 +10,9 @@ $footer: #2a2d34;
 
     .pictures-info {
         .detailed {
+            padding-right: 0px;
+            padding-left: 0px;
+
             .gallery {
                 margin: 15px;
                 border: 2px solid $lighgray;
@@ -90,7 +93,169 @@ $footer: #2a2d34;
         }
 
         .prod-info-main {
-            .prod-info-sub {}
+            padding-top: 60px;
+
+            .prod-info-sub {
+                .product-title {
+                    font-weight: bold;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    color: $lettergray;
+                }
+
+                .logo-price {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    img {
+                        width: 35%;
+                        max-width: 200px;
+                        height: 35%;
+                        max-height: 82px;
+                    }
+
+                    .price {
+                        span {
+                            font-weight: bold;
+                            font-size: 44px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+
+                .discount {
+                    .original-price {
+                        text-align: right;
+                        color: $lettergray;
+
+                        .amount {
+                            display: block;
+                            font-size: 22px;
+                        }
+
+                        .saving {
+                            font-style: italic;
+                            font-size: 24px;
+                        }
+                    }
+                }
+
+                .size {
+                    padding-top: 45px;
+
+                    .size-amount {
+                        .s-a {
+                            color: $lettergray;
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+
+                        .sz {}
+
+                        .am {
+                            float: right;
+                        }
+
+                        form {
+                            input[type=text] {
+                                display: inline-block;
+                                padding: 15px;
+                            }
+
+                            .input-size {
+                                width: 70%;
+                            }
+
+                            .input-amount {
+                                float: right;
+                                width: 15%;
+                            }
+
+                            input[type=submit] {
+                                padding: 25px;
+                                border: none;
+                                background-color: #ff674f;
+                                color: #fff;
+                                text-transform: uppercase;
+                                font-size: 25px;
+                                font-weight: bold;
+                                letter-spacing: 4px;
+                                padding: 15px 50px;
+                                display: block;
+                                margin: 30px;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
         }
+    }
+}
+
+.sec-column {
+    padding-top: 30px;
+
+    .desc-shipp-size {
+        padding: 0px;
+
+        .col-sm-12 {
+            padding: 0px 120px 0 120px;
+
+            .buttons {
+                padding: 0px;
+
+                a {
+                    background-color: $lighgray;
+                    margin: 0px 5px;
+
+                    /* Green */
+
+                    color: $lettergray;
+                    padding: 1.5% 5%;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 20px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    border-top: 5px solid $lighgray;
+                    box-shadow: 0px -1px 4px 0px $lettergray;
+                }
+
+                a:active {
+                    background-color: $white;
+                    border-top: 5px solid $orange;
+                }
+            }
+        }
+
+        .border {
+            border-top: 1px solid $lighgray;
+            background-color: $white;
+            padding: 30px 0px;
+
+            .text {
+                p {
+                    color: $lettergray;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .text {
+        column-count: 2 !important;
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .text {
+        column-count: 1;
+        column-gap: 40px;
     }
 }
