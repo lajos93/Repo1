@@ -20,7 +20,7 @@ products: any = [{
 		"name" : "Adidas Sport TZ",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe1.png",
+		"image" : "./img/adi1.png",
 		"price" : 79,
 		},
 		{
@@ -29,7 +29,7 @@ products: any = [{
 		"name" : "Adidas Sport T54",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe2.png",
+		"image" : "./img/adi2.png",
 		"price" : 79,
 		},
 		{
@@ -38,7 +38,7 @@ products: any = [{
 		"name" : "Adidas Sport T65",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe1.png",
+		"image" : "./img/adi1.png",
 		"price" : 79,
 		},
 		{
@@ -47,7 +47,7 @@ products: any = [{
 		"name" : "Adidas Sport TZ",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe1.png",
+		"image" : "./img/adi1.png",
 		"price" : 79,
 		},
 		{
@@ -56,7 +56,7 @@ products: any = [{
 		"name" : "Adidas Sport T54",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe2.png",
+		"image" : "./img/adi2.png",
 		"price" : 79,
 		},
 		{
@@ -65,7 +65,7 @@ products: any = [{
 		"name" : "Adidas Sport T65",
 		"description" : "Make the best strawberry tart there is",
 		"type" : "Lorem ipsum dolor sit amet, conscettur adipusisdas eli",
-		"image" : "./img/shoe1.png",
+		"image" : "./img/adi2.png",
 		"price" : 79,
 		}
 

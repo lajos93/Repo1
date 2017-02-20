@@ -1,0 +1,65 @@
+$lettergray: #7e7f84;
+$orange: #f45a40;
+$lighgray: #ededed;
+$white: #fff;
+$semi-tp-black: rgba(black, 0.6);
+$footer: #2a2d34;
+
+.contact-us {
+    padding: 0px 120px 00px 120px;
+    text-transform: uppercase;
+    color: $lettergray;
+    overflow: hidden;
+
+    div {
+        form {
+            h2 {
+                margin: 45px 0px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 15px;
+
+                span {
+                    display: inline-block;
+                    width: 20%;
+                    font-size: 14px;
+                    font-weight: 100;
+                }
+
+                #email {
+                    width: 80%;
+                }
+
+                #name {
+                    width: 80%;
+                }
+
+                input[type=submit] {
+                    display: block;
+                    background-color: $orange;
+                    color: $white;
+                    border: none;
+                    outline: 0;
+                    text-transform: uppercase;
+                    padding: 8px 30px;
+                }
+
+                input[type=text] {
+                    padding: 5px;
+                }
+
+                #feedback {
+                    display: block;
+                    margin: 5px 0px 15px 0px;
+                }
+
+                textarea {
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

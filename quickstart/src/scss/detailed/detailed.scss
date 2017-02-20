@@ -1,0 +1,96 @@
+$lettergray: #7e7f84;
+$orange: #f45a40;
+$lighgray: #ededed;
+$white: #fff;
+$semi-tp-black: rgba(black, 0.6);
+$footer: #2a2d34;
+
+.detailed-style {
+    padding: 15px 105px 0 105px;
+
+    .pictures-info {
+        .detailed {
+            .gallery {
+                margin: 15px;
+                border: 2px solid $lighgray;
+                padding: 15px;
+                overflow: hidden;
+
+                .pic {
+                    width: 50%;
+                    padding-bottom: 75%;
+                    margin: auto;
+
+                    /* height: 121%; */
+                    max-width: 600px;
+                    min-width: 300px;
+                    min-height: 436px;
+
+                    /* 16:9 */
+                    position: relative;
+                    -webkit-background-size: 100% auto;
+                    -moz-background-size: 100% auto;
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-image: url(../../../img/shoebig.png);
+                }
+            }
+
+            .small-gallery {
+                display: flex;
+                margin: 5px;
+
+                .small-pics {
+                    width: 100%;
+                    display: flex;
+
+                    /* align-items: center; */
+                    justify-content: space-between;
+
+                    .col-sm-4 {
+                        width: 33%;
+                        display: inline-block;
+                        border: 2px solid $lighgray;
+                        margin: 0px 10px;
+
+                        /* height: 121%; */
+
+                        /* 16:9 */
+                        position: relative;
+                        -webkit-background-size: 100% auto;
+                        -moz-background-size: 100% auto;
+                        background-size: 100% auto;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+
+                        .little {
+                            width: 100%;
+                            overflow: hidden;
+                            padding-bottom: 100%;
+                            background-size: 100% auto;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+
+                        .pic-thumb1 {
+                            background-image: url(../../../img/thumb1.png);
+                        }
+
+                        .pic-thumb2 {
+                            background-image: url(../../../img/thumb2.png);
+                        }
+
+                        .pic-thumb3 {
+                            background-image: url(../../../img/thumb3.png);
+                        }
+                    }
+                }
+            }
+        }
+
+        .prod-info-main {
+            .prod-info-sub {}
+        }
+    }
+}

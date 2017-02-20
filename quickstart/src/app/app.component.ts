@@ -3,14 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `  
-  <header></header>
 
+  <header></header>
   <main class="Site-content">
-  			<slider></slider>
-  			<topics></topics>
-  			<popular></popular>
-  			<signup></signup>
-  </main>
+  	<router-outlet></router-outlet>
+  	</main>
+  	
   <footer></footer>
    `,
 })
